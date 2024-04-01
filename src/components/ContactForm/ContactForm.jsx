@@ -25,7 +25,7 @@ const ContactForm = ({ onSubmit }) => {
     >
         <Form className={styles.contactForm}>
         <label className={styles.contactFormLabel} htmlFor="name">
-            Name:
+            Name
             <Field
             type="text"
             name="name"
@@ -37,7 +37,7 @@ const ContactForm = ({ onSubmit }) => {
         </label>
 
         <label className={styles.contactFormLabel} htmlFor="number">
-            Number:
+            Number
             <Field
             type="tel"
             name="number"

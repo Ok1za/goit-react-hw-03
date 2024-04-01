@@ -3,7 +3,7 @@ import styles from './SearchBox.module.css';
 const SearchBox = ({ value, onChange }) => {
     return (
     <label className={styles.searchBoxLabel}>
-        <span className={styles.searchBoxLabelText}>Search:</span>
+        <span className={styles.searchBoxLabelText}>Find contacts by name</span>
         <input
         type="text"
         name="search"
